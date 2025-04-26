@@ -15,3 +15,17 @@ here i used the postgresql DB with
 3. run `npx prisma generate`
 4. run `npx prisma migrate dev --name init`
 5. run `npm run dev`
+
+
+#### API route
+
+```
+├── api/v1/             # Base API route for version 1
+│   └── auth/           # Authentication-related endpoints
+│   │   └── login       # POST: Authenticate user and return a JWT token
+│   │   └── register    # POST: Register a new user
+│   │   └── me          # GET: Retrieve the authenticated user's details
+│   └── leads/          # Lead management endpoints
+│       └── /           # GET: Retrieve all leads
+│       └── /           # POST: Create a new lead
+```
