@@ -15,6 +15,7 @@ here i used the postgresql DB with
 3. run `npx prisma generate`
 4. run `npx prisma migrate dev --name init`
 5. run `npm run dev`
+6. then run the FE to test the app
 
 
 #### API route
